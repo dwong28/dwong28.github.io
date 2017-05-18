@@ -2,6 +2,6 @@ body {
     background-image: url("backgroundImg.png");
     width: 256px;
     height: 256px;
-    background-repeat: repeat-x;
+    background-repeat: repeat;
     color: white;
 }

@@ -6,18 +6,21 @@
     <link rel="stylesheet" type="text/css" href="mainPage.css">
     <link rel="stylesheet" type="text/css" href="bootstrap.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <script type="text/javascript" src="angular.min.js"></script>
+    <script type="text/javascript" src="jsFile.js"></script>
 </head>
-<style>
-    @import url('https://fonts.googleapis.com/css?family=Quicksand');
-</style>
-<body>
+
+<body ng-app="mainPage">
     <div class="col-md-8 center-block" id="title">
         <img id="profilePic" src="profilePic.jpg">
         <p id="titleDesc">
             <h1>Dennis Wong - Programmer, Gamer, Lifelong Student</h1>
             <h1>-------------------------------------------------</h1>
-            <h2>An Aspiring Programmer Looking to Make A Difference</h2>
+            <h2>An Aspiring Programmer Looking to Make A Difference {{10 + 2}}</h2>
         </p>
+    </div>
+    <div class="col-md-8 center-block" id="tabs">
+        <img src="silhouette.jpeg" class="tabImg" id="abtImg">
     </div>
 </body>
 </html>

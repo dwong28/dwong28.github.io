@@ -27,3 +27,20 @@ body {
     padding: 2em;
     float: right;
 }
+#tabs {
+    float: none;
+    align-items: center;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.tabImg {
+    border-radius: 50%;
+    padding: 2% 0;
+}
+
+#abtImg {
+    border: 2px solid red;
+    width: 25%;
+}

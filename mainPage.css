@@ -28,11 +28,34 @@ body {
     float: right;
 }
 #tabs {
+    font-family: Quicksand, sans-serif;
     float: none;
     align-items: center;
     border: 3px solid black;
     border-radius: 15px;
     background-color: white;
+}
+
+#tabs ul {
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+}
+#tabs li {
+    font-size: 2em;
+    padding: 0 2%;
+    display: inline;
+}
+#tabs li a {
+ font-size: 1.0em;
+    transition: font-size 0.5s;
+    -webkit-transition: font-size 0.5s;
+}
+#tabs li a:hover {
+   font-size: 1.3em;
+   transition: font-size 0.5s;
+    -webkit-transition: font-size 0.5s;
 }
 
 .tabImg {

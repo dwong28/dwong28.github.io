@@ -16,15 +16,24 @@
         <p id="titleDesc">
             <h1>Dennis Wong - Programmer, Gamer, Lifelong Student</h1>
             <h1>-------------------------------------------------</h1>
-            <h2>An Aspiring Programmer Looking to Make A Difference {{10 + 2}}</h2>
+            <h2>An Aspiring Programmer Looking to Make A Difference</h2>
         </p>
     </div>
-    <div class="col-md-8 center-block" id="tabs">
+    <div ng-controller="TabController as tabs" class="col-md-8 center-block" id="tabs">
         <ul>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contact Me</a></li>
+            <li><a href="#" ng-click="tabs.setTab(1)">About Me</a></li>
+            <li><a href="#" ng-click="tabs.setTab(2)">Projects</a></li>
+            <li><a href="#" ng-click="tabs.setTab(3)">Contact Me</a></li>
         </ul>
+        <div class="panel" ng-show="tabs.isSet(1)">
+            fdjsklfsdajlfsd
+        </div>
+        <div class="panel" ng-show="tabs.isSet(2)">
+            jkl;jhioljkl;
+        </div>
+        <div class="panel" ng-show="tabs.isSet(3)">
+            eryiowqpruewo32904723
+        </div>
 
     </div>
 </body>

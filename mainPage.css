@@ -36,28 +36,30 @@ body {
     background-color: white;
 }
 
-#tabs ul {
+#tabs > ul {
     text-align: center;
     list-style-type: none;
     margin: auto;
     padding: 0;
 }
-#tabs li {
+#tabs > ul li {
     font-size: 2em;
     padding: 0 2%;
     display: inline;
 }
-#tabs li a {
+#tabs li  a {
  font-size: 1.0em;
     transition: font-size 0.5s;
     -webkit-transition: font-size 0.5s;
 }
-#tabs li a:hover {
+#tabs li > a:hover {
    font-size: 1.3em;
    transition: font-size 0.5s;
     -webkit-transition: font-size 0.5s;
 }
-
+#skillsList ul {
+    list-style-type: circle;
+}
 .tabImg {
     border-radius: 50%;
     padding: 2% 0;
